@@ -2,6 +2,10 @@
  fron con angular y back con sts
 
 
+## github
+como practica de github recordar usar la sigueinte estructura
+
+
 ## Sprint tools
 
 se crea base de proyecto en sts 4 
