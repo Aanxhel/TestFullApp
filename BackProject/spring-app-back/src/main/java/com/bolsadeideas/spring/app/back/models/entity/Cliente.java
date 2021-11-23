@@ -1,5 +1,6 @@
 /*
  * en la clase entity entra a la DB
+ * esta se hace incercion son sus atributos
  * 
  * */
 
@@ -8,11 +9,34 @@ package com.bolsadeideas.spring.app.back.models.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "clientes")
 public class Cliente implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;// este es necesario para el Serializable
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+
 	private String nombre;
 	private String apellidoPat;
+	private String email;
+
+	@Column(name = "create_at")
+	@Temporal(TemporalType.DATE)
 	private Date createAt;
 
 	public Long getId() {
@@ -39,12 +63,24 @@ public class Cliente implements Serializable {
 		this.apellidoPat = apellidoPat;
 	}
 
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	public Date getCreateAt() {
 		return createAt;
 	}
 
 	public void setCreateAt(Date createAt) {
 		this.createAt = createAt;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 
 }
