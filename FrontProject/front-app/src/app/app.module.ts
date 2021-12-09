@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { LienzoComoponenteComponent } from './lienzo-comoponente/lienzo-comoponente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
-    FooterComponent
+    FooterComponent,
+    LienzoComoponenteComponent
   ],
   imports: [
     BrowserModule,
