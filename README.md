@@ -1,3 +1,5 @@
+liga de colores: `https://lospec.com/palette-list/comicscapes-50`
+
 # TestFullApp
  fron con angular y back con sts
 
