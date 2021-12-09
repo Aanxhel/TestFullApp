@@ -34,7 +34,7 @@ en esta seguiremos la sigueinte estructura, tomar en cuenta para sigueintes proy
 ## errores
 
 si tenemos el siquiente error 
-[× Package install failed, see above.]
-[The Schematic workflow failed. See above.]
-`npm cache clean --force`
-`npm i -g @angular/cli`
+- [× Package install failed, see above.]
+- [The Schematic workflow failed. See above.]
++ `npm cache clean --force`
++ `npm i -g @angular/cli`
