@@ -30,6 +30,8 @@ en esta seguiremos la sigueinte estructura, tomar en cuenta para sigueintes proy
 -service
 
 # Angular
+seleccionaremos la version del proyecto 
+y usaremos bootrap
 
 ## errores
 
