@@ -7,6 +7,9 @@ import { FooterComponent } from './modules/components/footer/footer.component';
 import { HeaderComponent } from './modules/components/header/header.component';
 import { PokeDetailComponent } from './modules/components/poke-detail/poke-detail.component';
 import { PokeTableComponent } from './modules/components/poke-table/poke-table.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './shared/material.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { PokeTableComponent } from './modules/components/poke-table/poke-table.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
