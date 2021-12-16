@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/app-poke-api'),
+      dir: require('path').join(__dirname, './coverage/app-pokeapi'),
       subdir: '.',
       reporters: [
         { type: 'html' },

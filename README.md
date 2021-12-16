@@ -31,7 +31,7 @@ en esta seguiremos la sigueinte estructura, tomar en cuenta para sigueintes proy
 
 # Angular
 seleccionaremos la version del proyecto 
-y usaremos bootrap
+y usaremos bootrap, siempre con routing
 
 ## errores
 
