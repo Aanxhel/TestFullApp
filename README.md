@@ -32,6 +32,7 @@ en esta seguiremos la sigueinte estructura, tomar en cuenta para sigueintes proy
 # Angular
 seleccionaremos la version del proyecto 
 y usaremos angular-materials, siempre con routing
+`crear modulos`
 
 ## errores
 
