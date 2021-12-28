@@ -1,17 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PokeDetailComponent } from './modules/components/poke-detail/poke-detail.component';
-import { PokeTableComponent } from './modules/components/poke-table/poke-table.component';
 
 const routes: Routes = [
-  { path: 'home', component: PokeTableComponent },
-  { path: 'pokeDetail/:id', component: PokeDetailComponent },
-  { path: '', pathMatch: 'full', redirectTo: 'home' },
-  { path: '**', pathMatch: 'full', redirectTo: 'home' },
+
+  
+
+  { path: 'notfound', loadChildren: () => import('./modules/components/not-found/not-found.module').then(m => m.NotFoundModule) },
+  { path: 'footer', loadChildren: () => import('./modules/components/footer/footer.module').then(m => m.FooterModule) },
+  { path: 'header', loadChildren: () => import('./modules/components/header/header.module').then(m => m.HeaderModule) },
+
+  //se coloca siempre al finalr para encontrar el path home
+  { path: '**', pathMatch: 'full', redirectTo: 'notfound' },
+  { path: '', pathMatch: 'full', redirectTo: 'notfound' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
