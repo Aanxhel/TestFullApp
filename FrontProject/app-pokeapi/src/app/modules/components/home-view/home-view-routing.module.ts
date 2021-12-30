@@ -6,10 +6,8 @@ const routes: Routes = [{
   path: '', component: HomeViewComponent,
   children: [
 
-    { path: 'header', loadChildren: () => import('./header/header.module').then(m => m.HeaderModule) },
-    { path: 'footer', loadChildren: () => import('./footer/footer.module').then(m => m.FooterModule) },
     { path: 'example', loadChildren: () => import('./example/example.module').then(m => m.ExampleModule) },
-    
+
     { path: '**', pathMatch: 'full', redirectTo: 'example' },
   ],
 
