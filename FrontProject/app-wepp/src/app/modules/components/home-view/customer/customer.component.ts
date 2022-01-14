@@ -7,7 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerComponent implements OnInit {
 
-  constructor() { }
+  id=0;
+  nombre = '';
+  apellido='';
+  creatAT= '';
+  email='';
+
+  constructor() { 
+
+    console.log('customer');
+
+  }
 
   ngOnInit(): void {
   }
