@@ -13,21 +13,6 @@ const routes: Routes = [
   { path: '**', pathMatch: 'full', redirectTo: 'homeview' },
   { path: '', pathMatch: 'full', redirectTo: 'homeview' },
 
-
-  
-
-
-  
-
-
-
-
-
-  
-
-
-
-
 ];
 
 
