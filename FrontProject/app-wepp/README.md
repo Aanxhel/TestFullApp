@@ -26,6 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## instalar bootstrap
+## Instalar bootstrap
 
-se instala bootstrap en en index [bootstrap](https://getbootstrap.com/docs/5.1/getting-started/download/) CDN. solo ccs y js.
+Se instala bootstrap en en index [bootstrap](https://getbootstrap.com/docs/5.1/getting-started/download/) CDN. solo ccs y js.
