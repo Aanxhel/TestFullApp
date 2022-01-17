@@ -9,10 +9,11 @@ const routes: Routes = [{
 
     { path: 'example', loadChildren: () => import('./example/example.module').then(m => m.ExampleModule) },
     { path: 'customer', loadChildren: () => import('./customer/customer.module').then(m => m.CustomerModule) },
+    { path: 'aboutus', loadChildren: () => import('./about-us/about-us.module').then(m => m.AboutUsModule) },
+
     { path: '**', pathMatch: 'full', redirectTo: 'customer' },
 
   ],
-
 }];
 
 @NgModule({
