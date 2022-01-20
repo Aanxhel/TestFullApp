@@ -16,6 +16,13 @@
 
       <tbody>
         
+        <tr *ngFor="let cutomer of customers">
+          <th>{{ cutomer.id }}</th>
+          <th>{{ cutomer.nombre }}</th>
+          <th>{{ cutomer.apellido }}</th>
+          <th>{{ cutomer.email }}</th>
+          <th>{{ cutomer.createAt }}</th>
+        </tr>
         
       </tbody>
     </table>
