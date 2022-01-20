@@ -1254,3 +1254,10 @@
 2022-01-20 00:19:09,997 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-01-20 00:19:09,997 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-01-20 00:19:09,997 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Develop\Github\FullApp\TestFullApp\BackProject\spring-app-backen-api\src\test\resources
+2022-01-20 00:30:07,531 [Worker-45: Launching spring-app-backen-api - SpringAppBackenApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-20 00:30:07,531 [Worker-45: Launching spring-app-backen-api - SpringAppBackenApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-20 00:30:07,532 [Worker-45: Launching spring-app-backen-api - SpringAppBackenApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-20 00:30:07,540 [Worker-45: Launching spring-app-backen-api - SpringAppBackenApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-20 00:30:07,543 [Worker-45: Launching spring-app-backen-api - SpringAppBackenApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-20 00:30:07,543 [Worker-45: Launching spring-app-backen-api - SpringAppBackenApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-20 00:30:07,543 [Worker-45: Launching spring-app-backen-api - SpringAppBackenApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Develop\Github\FullApp\TestFullApp\BackProject\spring-app-backen-api\src\test\resources
