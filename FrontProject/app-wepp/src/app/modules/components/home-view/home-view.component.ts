@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeViewComponent implements OnInit {
 
   constructor() {
-    console.log('home view');
+    
    }
 
   ngOnInit(): void {

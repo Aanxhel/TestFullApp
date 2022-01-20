@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Observable,of } from "rxjs";
 import { HttpClient } from "@angular/common/http";
 import { Customer } from "./customer";
-import { map } from 'rxjs/operators';
 
 
 @Injectable({
@@ -17,12 +16,7 @@ export class CustomerService {
 
  getCoutumers():Observable<Customer[]>{
 
-    return this.http.get(this.urlEndPoint).pipe(
-
-      
-      map(response => response as Customer[])
-
-    );
+    return this.http.get<Customer[]>(this.urlEndPoint);
       
   }
 }

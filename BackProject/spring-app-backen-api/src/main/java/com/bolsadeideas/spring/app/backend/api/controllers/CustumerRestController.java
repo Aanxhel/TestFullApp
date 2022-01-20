@@ -13,7 +13,7 @@ import com.bolsadeideas.spring.app.backend.api.models.services.ICustumerService;
 
 
 
-@CrossOrigin(origins= {"https://localhost:4200"})
+@CrossOrigin(origins= {"http://localhost:4200/"})
 @RestController
 @RequestMapping("/api")
 public class CustumerRestController {

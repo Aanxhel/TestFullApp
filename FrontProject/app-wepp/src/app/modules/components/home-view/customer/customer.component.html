@@ -11,17 +11,19 @@
           <th>apellido</th>
           <th>email</th>
           <th>fecha</th>
+          
         </tr>
       </thead>
 
       <tbody>
         
-        <tr *ngFor="let cutomer of customers">
-          <th>{{ cutomer.id }}</th>
-          <th>{{ cutomer.nombre }}</th>
-          <th>{{ cutomer.apellido }}</th>
-          <th>{{ cutomer.email }}</th>
-          <th>{{ cutomer.createAt }}</th>
+
+        <tr *ngFor="let customer of customers">
+          <th>{{ customer.id }}</th>
+          <th>{{ customer.nombre }}</th>
+          <th>{{ customer.apellido }}</th>
+          <th>{{ customer.email }}</th>
+          <th>{{ customer.createAt }}</th>
         </tr>
         
       </tbody>
